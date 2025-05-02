@@ -1,0 +1,28 @@
+.tabs {
+  background: $dark-color;
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .tab-item {
+      padding: 1.5rem 0;
+
+      &:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
+}

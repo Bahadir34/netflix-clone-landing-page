@@ -1,0 +1,151 @@
+@media (max-width: 960px) {
+  .showcase {
+    height: 70vh;
+
+    &-top {
+      img {
+        top: 0;
+        left: 2%;
+        transform: translate(0);
+      }
+
+      .btn {
+        top: 60%;
+        right: 0;
+      }
+    }
+
+    &-content {
+      h1 {
+        font-size: 3.7rem;
+        line-height: 1;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .btn-xl {
+    font-size: 1.5rem;
+    padding: 1.4rem 2rem;
+  }
+
+  .text-xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1.3rem;
+  }
+
+  .text-md {
+    font-size: 1rem;
+  }
+
+  .footer {
+    &-cols {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .showcase::after {
+    box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
+  }
+
+  #tab-1-content {
+    .tab-1-content-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  #tab-2-content {
+    .tab-2-content-top {
+      display: block;
+      text-align: center;
+    }
+
+    .tab-2-content-bottom {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .showcase {
+    &::after {
+      box-shadow: inset 10px 10px 50px #000000, inset -10px -10px 50px #000000;
+    }
+
+    &-content {
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .btn-xl {
+    font-size: 1rem !important;
+    padding: 1.4rem 2rem !important;
+  }
+
+  .btn-lg {
+    font-size: 1rem !important;
+  }
+
+  .text-xl {
+    font-size: 1rem !important;
+  }
+
+  .text-lg {
+    font-size: 0.8rem !important;
+  }
+
+  .text-md {
+    font-size: 0.5rem !important;
+  }
+
+  .tabs {
+    .container {
+      .tab-item {
+        .fas {
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    
+    .container {
+      max-width: 100%;
+      padding: 0 .1rem;
+    }
+  }
+
+  .table{
+    thead{
+      th{
+        font-size: .9rem;
+      }
+    }
+    tbody{
+      tr{
+        td{
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+}
